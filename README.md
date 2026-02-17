@@ -1,4 +1,4 @@
-# Welcome to your Lovable project
+# Personal Website (built using Lovable, Claude Code, Vercel)
 
 ## Project info
 
