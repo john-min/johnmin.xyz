@@ -9,7 +9,7 @@ const HeroSection = () => {
           John Min
         </h1>
 
-        <p className="max-w-lg font-mono text-sm leading-relaxed text-muted-foreground">
+        <p className="blinking-cursor max-w-lg font-mono text-sm leading-relaxed text-muted-foreground">
           A collection of projects, ideas, and explorations at the intersection
           of design, technology, and culture.
         </p>

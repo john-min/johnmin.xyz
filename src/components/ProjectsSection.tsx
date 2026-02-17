@@ -38,8 +38,8 @@ const ProjectsSection = () => {
       <div className="mx-auto max-w-6xl">
         <div className="mb-16 flex items-end justify-between">
           <div>
-            <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
-              REF.02
+            <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
+              REF.02 — Projects
             </span>
             <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
               Projects

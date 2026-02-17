@@ -4,10 +4,9 @@ const AboutSection = () => {
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-16 md:grid-cols-2">
           <div>
-            <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
-              REF.01
+            <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
+              REF.01 — Background & Interests
             </span>
-            <div className="mt-4 h-px w-16 bg-primary" />
           </div>
 
           <div className="space-y-6">
