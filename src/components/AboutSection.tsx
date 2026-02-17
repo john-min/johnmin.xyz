@@ -10,7 +10,7 @@ const AboutSection = () => {
             <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
               Context
             </h2>
-            <div className="barragan-stripe mt-4 h-1 w-24" />
+            <div className="mt-4 h-1 w-16 bg-primary" />
           </div>
 
           <div className="space-y-6">
