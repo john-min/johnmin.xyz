@@ -15,16 +15,20 @@ const AboutSection = () => {
 
           <div className="space-y-6">
             <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Duke (economics, math, public policy) → Columbia (statistics, ML).
+              Duke undergrad (economics, math, public policy) → Columbia grad
+              (statistics, ML). Data science across in fintech, healthcare,
+              location intelligence, mobile advertising, politics, media, and
+              web3.
             </p>
             <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Data science across healthtech, location intelligence, politics,
-              sports, media, fintech, and web3.
+              Product and strategy in consumer credit, emerging markets lending,
+              and digital transformation. Co-founded Dignifi — AI-powered
+              reentry support for justice-impacted individuals across housing,
+              health, and employment.
             </p>
             <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Product and strategy in consumer credit, emerging market lending,
-              and digital transformation. Co-founded Dignifi — building financial
-              infrastructure for the formerly incarcerated.
+              Current interests include: AI systems, fintech and stablecoins,
+              and the automation of everything that moves.
             </p>
 
             <div className="pt-8">
