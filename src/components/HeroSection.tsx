@@ -6,7 +6,7 @@ const HeroSection = () => {
         <div className="barragan-stripe mb-12 h-1 w-32" />
 
         <h1 className="mb-6 text-5xl font-bold leading-tight text-foreground md:text-7xl lg:text-8xl">
-          Your Name
+          John Min
         </h1>
 
         <p className="max-w-lg font-mono text-sm leading-relaxed text-muted-foreground">
