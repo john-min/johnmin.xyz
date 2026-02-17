@@ -3,7 +3,7 @@ const HeroSection = () => {
     <section id="hero" className="relative flex min-h-screen items-end px-6 pb-24 pt-32 md:px-12">
       <div className="mx-auto w-full max-w-6xl">
         {/* Barragán tri-color stripe */}
-        <div className="barragan-stripe mb-12 h-1 w-32" />
+        <div className="barragan-stripe mb-12 h-1 w-1/2" />
 
         <h1 className="mb-6 text-5xl font-bold leading-tight text-foreground md:text-7xl lg:text-8xl">
           John Min
