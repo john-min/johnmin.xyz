@@ -4,8 +4,8 @@ const ContactSection = () => {
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-16 md:grid-cols-2">
           <div>
-            <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
-              REF.03
+            <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
+              REF.03 — Contact
             </span>
             <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
               Get in touch
