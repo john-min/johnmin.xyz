@@ -15,7 +15,7 @@ const AboutSection = () => {
 
           <div className="space-y-8">
             {/* Education */}
-            <div className="border-l-4 border-primary bg-muted/50 p-6">
+            <div className="border-l-4 border-primary bg-[hsl(var(--card-block))] p-6">
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 EDUCATION
               </span>
@@ -25,7 +25,7 @@ const AboutSection = () => {
             </div>
 
             {/* Experience */}
-            <div className="border-l-4 border-secondary bg-muted/50 p-6">
+            <div className="border-l-4 border-secondary bg-[hsl(var(--card-block))] p-6">
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 EXPERIENCE
               </span>
@@ -35,7 +35,7 @@ const AboutSection = () => {
             </div>
 
             {/* Dignifi */}
-            <div className="border-l-4 border-accent bg-muted/50 p-6">
+            <div className="border-l-4 border-accent bg-[hsl(var(--card-block))] p-6">
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 DIGNIFI
               </span>
@@ -45,7 +45,7 @@ const AboutSection = () => {
             </div>
 
             {/* Current Interests */}
-            <div className="border-l-4 border-accent bg-muted/50 p-6">
+            <div className="border-l-4 border-[hsl(var(--barragan-neutral))] bg-[hsl(var(--card-block))] p-6">
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 CURRENT INTERESTS
               </span>
