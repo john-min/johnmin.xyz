@@ -55,6 +55,9 @@ const AboutSection = () => {
               <p className="mt-1.5 font-mono text-[0.9rem] leading-relaxed text-[hsl(var(--block-foreground))]">
                 AI systems, fintech and stablecoins, and the automation of everything that moves.
               </p>
+              <p className="mt-3 font-mono text-[0.9rem] leading-relaxed text-[hsl(var(--block-foreground))]">
+                Tennis, house music, writing, and visual art performance.
+              </p>
             </div>
           </div>
         </div>
