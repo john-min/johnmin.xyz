@@ -19,7 +19,7 @@ const AboutSection = () => {
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 EDUCATION
               </span>
-              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+              <p className="mt-3 font-mono text-base leading-relaxed text-[hsl(var(--block-foreground))]">
                 Duke undergrad (economics, math, public policy) → Columbia grad (statistics, ML).
               </p>
             </div>
@@ -29,7 +29,7 @@ const AboutSection = () => {
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 EXPERIENCE
               </span>
-              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+              <p className="mt-3 font-mono text-base leading-relaxed text-[hsl(var(--block-foreground))]">
                 Data science across fintech, healthcare, location intelligence, mobile advertising, politics, media, and web3. Product and strategy in consumer credit, emerging markets lending, and digital transformation.
               </p>
             </div>
@@ -39,7 +39,7 @@ const AboutSection = () => {
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 DIGNIFI
               </span>
-              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+              <p className="mt-3 font-mono text-base leading-relaxed text-[hsl(var(--block-foreground))]">
                 Co-founded Dignifi — AI-powered reentry support for justice-impacted individuals across housing, health, and employment.
               </p>
             </div>
@@ -49,7 +49,7 @@ const AboutSection = () => {
               <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
                 CURRENT INTERESTS
               </span>
-              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+              <p className="mt-3 font-mono text-base leading-relaxed text-[hsl(var(--block-foreground))]">
                 AI systems, fintech and stablecoins, and the automation of everything that moves.
               </p>
             </div>
