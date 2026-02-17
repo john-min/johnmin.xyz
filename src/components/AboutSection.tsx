@@ -15,32 +15,32 @@ const AboutSection = () => {
 
           <div className="space-y-6">
             <p className="font-sans text-lg leading-relaxed text-foreground">
-              I'm drawn to the spaces where art meets structure — where careful
-              restraint reveals something deeper. My work spans design,
-              engineering, and creative exploration.
+              Duke (economics, math, public policy) → Columbia (statistics, ML).
+              Data science across healthtech, location intelligence, politics,
+              sports, media, fintech, and web3.
             </p>
             <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Currently interested in the poetry of systems, the architecture of
-              light, and the quiet power of well-considered spaces. Inspired by
-              Barragán's philosophy that architecture is an act of emotion.
+              Product and strategy in consumer credit, emerging market lending,
+              and digital transformation. Co-founded Dignifi — building financial
+              infrastructure for the formerly incarcerated.
             </p>
 
             <div className="pt-8">
               <h3 className="font-mono text-xs tracking-widest text-muted-foreground">
-                CURRENTLY
+                CURRENT INTERESTS
               </h3>
               <ul className="mt-4 space-y-2 font-sans text-sm text-foreground">
                 <li className="flex items-start gap-3">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-primary" />
-                  Design & creative direction
+                  AI systems & robotics
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-secondary" />
-                  Software engineering
+                  Stablecoins & fintech
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-accent" />
-                  Writing & research
+                  The automation of everything that moves
                 </li>
               </ul>
             </div>
