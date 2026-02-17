@@ -16,8 +16,8 @@ const HeroSection = () => {
 
         {/* Decorative coordinates — nod to the reference */}
         <div className="mt-16 font-mono text-[10px] tracking-widest text-muted-foreground/50">
-          <p>19.4326° N, 99.1332° W</p>
-          <p>MEXICO CITY</p>
+          <p>37.7749° N, 122.4194° W</p>
+          <p>SAN FRANCISCO</p>
         </div>
       </div>
 
