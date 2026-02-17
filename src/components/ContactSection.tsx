@@ -15,19 +15,20 @@ const ContactSection = () => {
 
           <div className="space-y-6">
             <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Open to conversations about design, collaboration, or just
-              exchanging ideas. Reach out anytime.
+              Open to conversations to exchange ideas and/or collaborate. Reach out anytime.
             </p>
 
             <div className="space-y-3 pt-4">
               <a
-                href="mailto:hello@example.com"
+                href="https://www.linkedin.com/in/johncmin"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="block font-mono text-sm text-foreground underline decoration-primary underline-offset-4 transition-colors hover:text-primary"
               >
-                hello@example.com
+                LinkedIn
               </a>
               <a
-                href="https://twitter.com"
+                href="https://x.com/j0hnm1n"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block font-mono text-sm text-foreground underline decoration-secondary underline-offset-4 transition-colors hover:text-secondary"
@@ -35,7 +36,7 @@ const ContactSection = () => {
                 Twitter / X
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/john-min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block font-mono text-sm text-foreground underline decoration-accent underline-offset-4 transition-colors hover:text-accent"
@@ -49,7 +50,7 @@ const ContactSection = () => {
         {/* Footer */}
         <div className="mt-32 flex items-center justify-between border-t border-border pt-8">
           <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
-            © 2025
+            © 2026
           </span>
           <div className="barragan-stripe h-0.5 w-12" />
         </div>
