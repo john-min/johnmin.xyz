@@ -14,8 +14,10 @@ const AboutSection = () => {
           </div>
 
           <div className="space-y-6">
-            <p className="font-sans text-lg leading-relaxed text-foreground">
+            <p className="font-sans text-base leading-relaxed text-muted-foreground">
               Duke (economics, math, public policy) → Columbia (statistics, ML).
+            </p>
+            <p className="font-sans text-base leading-relaxed text-muted-foreground">
               Data science across healthtech, location intelligence, politics,
               sports, media, fintech, and web3.
             </p>
