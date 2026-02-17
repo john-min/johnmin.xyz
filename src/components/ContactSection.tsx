@@ -43,6 +43,14 @@ const ContactSection = () => {
               >
                 GitHub
               </a>
+              <a
+                href="https://johnmin.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block font-mono text-sm text-foreground underline decoration-[hsl(var(--barragan-neutral))] underline-offset-4 transition-colors hover:text-muted-foreground"
+              >
+                Substack
+              </a>
             </div>
           </div>
         </div>
