@@ -39,13 +39,13 @@ const ProjectsSection = () => {
         <div className="mb-16 flex items-end justify-between">
           <div>
             <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
-              REF.02 — Projects
+              REF.02
             </span>
             <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
               Projects
             </h2>
           </div>
-          <div className="barragan-stripe h-1 w-24" />
+          <div className="barragan-stripe mt-4 h-1 w-24" />
         </div>
 
         <div className="space-y-0 border-t border-border">
