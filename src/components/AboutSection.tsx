@@ -13,24 +13,46 @@ const AboutSection = () => {
             <div className="mt-4 h-1 w-16 bg-primary" />
           </div>
 
-          <div className="space-y-6">
-            <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Duke undergrad (economics, math, public policy) → Columbia grad
-              (statistics, ML). Data science across in fintech, healthcare,
-              location intelligence, mobile advertising, politics, media, and
-              web3.
-            </p>
-            <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Product and strategy in consumer credit, emerging markets lending,
-              and digital transformation. Co-founded Dignifi — AI-powered
-              reentry support for justice-impacted individuals across housing,
-              health, and employment.
-            </p>
-            <p className="font-sans text-base leading-relaxed text-muted-foreground">
-              Current interests include: AI systems, fintech and stablecoins,
-              and the automation of everything that moves.
-            </p>
+          <div className="space-y-8">
+            {/* Education */}
+            <div className="border-l-4 border-primary bg-muted/50 p-6">
+              <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
+                EDUCATION
+              </span>
+              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+                Duke undergrad (economics, math, public policy) → Columbia grad (statistics, ML).
+              </p>
+            </div>
 
+            {/* Experience */}
+            <div className="border-l-4 border-secondary bg-muted/50 p-6">
+              <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
+                EXPERIENCE
+              </span>
+              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+                Data science across fintech, healthcare, location intelligence, mobile advertising, politics, media, and web3. Product and strategy in consumer credit, emerging markets lending, and digital transformation.
+              </p>
+            </div>
+
+            {/* Dignifi */}
+            <div className="border-l-4 border-accent bg-muted/50 p-6">
+              <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
+                DIGNIFI
+              </span>
+              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+                Co-founded Dignifi — AI-powered reentry support for justice-impacted individuals across housing, health, and employment.
+              </p>
+            </div>
+
+            {/* Current Interests */}
+            <div className="border-l-4 border-accent bg-muted/50 p-6">
+              <span className="font-mono text-[10px] tracking-widest text-muted-foreground">
+                CURRENT INTERESTS
+              </span>
+              <p className="mt-3 font-mono text-base leading-relaxed text-foreground">
+                AI systems, fintech and stablecoins, and the automation of everything that moves.
+              </p>
+            </div>
           </div>
         </div>
       </div>
