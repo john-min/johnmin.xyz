@@ -33,7 +33,7 @@ const AboutSection = () => {
                 Data science across fintech, healthcare, advertising, politics, media, and web3.
               </p>
               <p className="mt-3 font-mono text-[0.9rem] leading-relaxed text-[hsl(var(--block-foreground))]">
-                Product management and strategy consulting in consumer credit, emerging markets lending, and digital transformation.
+                Product and strategy in consumer credit, emerging markets lending, and digital transformation.
               </p>
             </div>
 
