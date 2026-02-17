@@ -31,25 +31,6 @@ const AboutSection = () => {
               and the automation of everything that moves.
             </p>
 
-            <div className="pt-8">
-              <h3 className="font-mono text-xs tracking-widest text-muted-foreground">
-                CURRENT INTERESTS
-              </h3>
-              <ul className="mt-4 space-y-2 font-sans text-sm text-foreground">
-                <li className="flex items-start gap-3">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-primary" />
-                  AI systems & robotics
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-secondary" />
-                  Stablecoins & fintech
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-accent" />
-                  The automation of everything that moves
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
