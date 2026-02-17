@@ -45,7 +45,7 @@ const ProjectsSection = () => {
               Projects
             </h2>
           </div>
-          <div className="barragan-stripe mt-4 h-1 w-24" />
+          <div className="mt-4 h-1 w-16 bg-secondary" />
         </div>
 
         <div className="space-y-0 border-t border-border">
