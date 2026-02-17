@@ -20,6 +20,14 @@ const ContactSection = () => {
 
             <div className="space-y-3 pt-4">
               <a
+                href="https://johnmin.substack.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block font-mono text-sm text-foreground underline decoration-[hsl(var(--barragan-neutral))] underline-offset-4 transition-colors hover:text-muted-foreground"
+              >
+                Substack
+              </a>
+              <a
                 href="https://www.linkedin.com/in/johncmin"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -42,14 +50,6 @@ const ContactSection = () => {
                 className="block font-mono text-sm text-foreground underline decoration-accent underline-offset-4 transition-colors hover:text-accent"
               >
                 GitHub
-              </a>
-              <a
-                href="https://johnmin.substack.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block font-mono text-sm text-foreground underline decoration-[hsl(var(--barragan-neutral))] underline-offset-4 transition-colors hover:text-muted-foreground"
-              >
-                Substack
               </a>
             </div>
           </div>
