@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section id="hero" className="relative flex min-h-screen items-end px-6 pb-24 pt-32 md:px-12">
+    <section id="hero" className="relative flex min-h-screen items-end px-6 pb-24 pt-20 md:px-12">
       <div className="mx-auto w-full max-w-6xl">
         {/* Barragán tri-color stripe */}
         <div className="barragan-stripe mb-12 h-1 w-1/2" />
