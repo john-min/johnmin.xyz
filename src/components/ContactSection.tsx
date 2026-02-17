@@ -5,12 +5,12 @@ const ContactSection = () => {
         <div className="grid gap-16 md:grid-cols-2">
           <div>
             <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
-              REF.03 — Contact
+              REF.03
             </span>
             <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
               Get in touch
             </h2>
-            <div className="mt-6 h-px w-16 bg-accent" />
+            <div className="barragan-stripe mt-4 h-1 w-24" />
           </div>
 
           <div className="space-y-6">
