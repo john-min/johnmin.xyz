@@ -9,15 +9,13 @@ const ProjectsSection = () => {
   return (
     <section id="projects" className="px-6 py-32 md:px-12">
       <div className="mx-auto max-w-6xl">
-        <div className="mb-16 flex items-end justify-between">
-          <div>
-            <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
-              REF.02
-            </span>
-            <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
-              Projects
-            </h2>
-          </div>
+        <div className="mb-16">
+          <span className="blinking-cursor font-mono text-[10px] tracking-widest text-muted-foreground">
+            REF.02
+          </span>
+          <h2 className="mt-4 font-mono text-3xl font-bold text-foreground md:text-4xl">
+            Projects
+          </h2>
           <div className="mt-4 h-1 w-16 bg-secondary" />
         </div>
 
