@@ -22,10 +22,10 @@ const HeroSection = () => {
       </div>
 
       {/* Color blocks — Barragán architectural accent */}
-      <div className="absolute right-12 top-1/3 hidden flex-col gap-3 lg:flex">
+      <div className="fixed right-12 top-1/3 hidden flex-col gap-3 lg:flex z-50">
         <div className="h-24 w-6 bg-primary" />
-        <div className="h-16 w-6 bg-secondary" />
-        <div className="h-32 w-6 bg-accent" />
+        <div className="h-24 w-6 bg-secondary" />
+        <div className="h-24 w-6 bg-accent" />
       </div>
     </section>
   );
