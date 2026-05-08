@@ -53,10 +53,10 @@ const AboutSection = () => {
                 CURRENT INTERESTS
               </span>
               <p className="mt-1.5 font-mono text-[0.9rem] leading-relaxed text-[hsl(var(--block-foreground))]">
-                AI systems, fintech and stablecoins, and the automation of everything that moves.
+                AI systems, fintech, stablecoins, agentic commerce, and the automation of everything that moves.
               </p>
               <p className="mt-3 font-mono text-[0.9rem] leading-relaxed text-[hsl(var(--block-foreground))]">
-                Tennis, house music, writing, and visual art performance.
+                House music, tennis, writing, and visual art performance.
               </p>
             </div>
           </div>
