@@ -36,7 +36,7 @@ const ContactSection = () => {
                 LinkedIn
               </a>
               <a
-                href="https://x.com/j0hnm1n"
+                href="https://x.com/heyjohnmin"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block font-mono text-sm text-foreground underline decoration-secondary underline-offset-4 transition-colors hover:text-secondary"

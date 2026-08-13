@@ -26,7 +26,7 @@ export const background = {
 export const links = [
   { label: "Substack", url: "https://johnmin.substack.com" },
   { label: "LinkedIn", url: "https://www.linkedin.com/in/johncmin" },
-  { label: "Twitter / X", url: "https://x.com/j0hnm1n" },
+  { label: "Twitter / X", url: "https://x.com/heyjohnmin" },
   { label: "GitHub", url: "https://github.com/john-min" },
 ];
 
