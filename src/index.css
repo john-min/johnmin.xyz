@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300;1,9..40,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Work+Sans:ital,wght@0,300;0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;500;600&family=Archivo:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -150,4 +151,94 @@ html {
 /* Selection color */
 ::selection {
   background: hsl(var(--barragan-pink) / 0.25);
+}
+
+/* ============================================================
+   DESIGN CONCEPTS — scoped token themes (/concepts/*)
+   Each concept overrides semantic tokens on its own wrapper.
+   ============================================================ */
+
+
+/* Concept 1 — Editorial Studio Index */
+.concept-editorial {
+  --background: 38 34% 95%;
+  --foreground: 24 10% 12%;
+  --muted: 36 20% 90%;
+  --muted-foreground: 26 8% 38%;
+  --border: 30 14% 80%;
+  --primary: 14 46% 34%;
+  --primary-foreground: 38 34% 96%;
+  --accent: 14 46% 34%;
+  --ring: 14 46% 34%;
+  --c-display: 'Instrument Serif', Georgia, serif;
+  --c-body: 'Work Sans', sans-serif;
+  --c-meta: 'IBM Plex Mono', monospace;
+}
+
+/* Concept 2 — Systems Ledger */
+.concept-systems {
+  --background: 210 20% 97%;
+  --foreground: 215 28% 13%;
+  --muted: 210 16% 92%;
+  --muted-foreground: 215 12% 40%;
+  --border: 214 16% 84%;
+  --primary: 222 78% 44%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 222 78% 44%;
+  --ring: 222 78% 44%;
+  --c-display: 'IBM Plex Sans', sans-serif;
+  --c-body: 'IBM Plex Sans', sans-serif;
+  --c-meta: 'IBM Plex Mono', monospace;
+}
+
+/* Concept 3 — Barragán Field Notes */
+.concept-architectural {
+  --background: 30 30% 92%;
+  --foreground: 24 12% 11%;
+  --muted: 28 22% 87%;
+  --muted-foreground: 24 8% 36%;
+  --border: 28 16% 78%;
+  --primary: 340 68% 48%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 225 55% 34%;
+  --secondary-foreground: 0 0% 100%;
+  --accent: 38 74% 44%;
+  --accent-foreground: 0 0% 100%;
+  --ring: 340 68% 48%;
+  --c-display: 'Archivo', sans-serif;
+  --c-body: 'DM Sans', sans-serif;
+  --c-meta: 'Space Mono', monospace;
+}
+
+.concept-editorial,
+.concept-systems,
+.concept-architectural {
+  font-family: var(--c-body);
+}
+
+.concept-editorial h1, .concept-editorial h2, .concept-editorial h3, .concept-editorial h4,
+.concept-systems h1, .concept-systems h2, .concept-systems h3, .concept-systems h4,
+.concept-architectural h1, .concept-architectural h2, .concept-architectural h3, .concept-architectural h4 {
+  font-family: var(--c-display);
+  letter-spacing: -0.015em;
+}
+
+.font-display { font-family: var(--c-display); }
+.font-meta { font-family: var(--c-meta); }
+.font-body { font-family: var(--c-body); }
+
+/* Visible keyboard focus across concepts */
+.concept-editorial :focus-visible,
+.concept-systems :focus-visible,
+.concept-architectural :focus-visible {
+  outline: 2px solid hsl(var(--ring));
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .concept-editorial *, .concept-systems *, .concept-architectural * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
