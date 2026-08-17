@@ -32,7 +32,45 @@ var links = [
   { label: "Twitter / X", url: "https://x.com/heyjohnmin" },
   { label: "GitHub", url: "https://github.com/john-min" }
 ];
-var projects = [];
+var projects = [
+  {
+    title: "StreamEngine",
+    description: "Stablecoin payout orchestration, treasury operations, and reconciliation for businesses and autonomous agents.",
+    tags: ["Fintech", "Operations", "Agents"],
+    status: "Sandbox prototype",
+    url: "https://stream-engine-pi.vercel.app",
+    group: "Financial systems",
+    accent: "secondary"
+  },
+  {
+    title: "Wireframe",
+    description: "A minimal consumer wallet for sending digital dollars across Base and Tempo.",
+    tags: ["Stablecoins", "Wallets", "Consumer"],
+    status: "Live prototype",
+    url: "https://wireframe-stablecoin.vercel.app",
+    group: "Financial systems",
+    accent: "secondary",
+    note: "Opens directly into authentication \u2014 a public walkthrough is in progress."
+  },
+  {
+    title: "Cardiac Beats",
+    description: "An EKG-inspired drum sequencer and rhythm visualizer.",
+    tags: ["Music", "Interaction"],
+    status: "Live",
+    url: "https://cardiac-beats.vercel.app",
+    group: "Music experiments",
+    accent: "primary"
+  },
+  {
+    title: "Synth Matrix",
+    description: "An AI guide that matches musical taste with iconic synthesizers.",
+    tags: ["AI", "Music"],
+    status: "Live",
+    url: "https://synth-matrix.vercel.app",
+    group: "Music experiments",
+    accent: "accent"
+  }
+];
 
 // src/lib/mcp/tools/get-profile.ts
 var get_profile_default = defineTool({
