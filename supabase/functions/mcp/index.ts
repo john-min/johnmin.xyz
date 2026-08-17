@@ -118,14 +118,14 @@ import { defineTool as defineTool4 } from "npm:@lovable.dev/mcp-js@0.26.1";
 var list_projects_default = defineTool4({
   name: "list_projects",
   title: "List projects",
-  description: "List John Min's published projects and case studies. Currently under construction, so this may return an empty list.",
+  description: "List John Min's projects and experiments, including title, description, tags, status, and live URL.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({
     content: [
       {
         type: "text",
-        text: projects.length === 0 ? "No projects published yet \u2014 the projects section is under construction." : JSON.stringify(projects, null, 2)
+        text: JSON.stringify(projects, null, 2)
       }
     ],
     structuredContent: { projects }
