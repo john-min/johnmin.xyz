@@ -30,4 +30,55 @@ export const links = [
   { label: "GitHub", url: "https://github.com/john-min" },
 ];
 
-export const projects: { title: string; description: string; year: string }[] = [];
+export type Project = {
+  title: string;
+  description: string;
+  tags: string[];
+  status: string;
+  url: string;
+  group: "Financial systems" | "Music experiments";
+  accent: "primary" | "secondary" | "accent";
+  note?: string;
+};
+
+export const projects: Project[] = [
+  {
+    title: "StreamEngine",
+    description:
+      "Stablecoin payout orchestration, treasury operations, and reconciliation for businesses and autonomous agents.",
+    tags: ["Fintech", "Operations", "Agents"],
+    status: "Sandbox prototype",
+    url: "https://stream-engine-pi.vercel.app",
+    group: "Financial systems",
+    accent: "secondary",
+  },
+  {
+    title: "Wireframe",
+    description:
+      "A minimal consumer wallet for sending digital dollars across Base and Tempo.",
+    tags: ["Stablecoins", "Wallets", "Consumer"],
+    status: "Live prototype",
+    url: "https://wireframe-stablecoin.vercel.app",
+    group: "Financial systems",
+    accent: "secondary",
+    note: "Opens directly into authentication — a public walkthrough is in progress.",
+  },
+  {
+    title: "Cardiac Beats",
+    description: "An EKG-inspired drum sequencer and rhythm visualizer.",
+    tags: ["Music", "Interaction"],
+    status: "Live",
+    url: "https://cardiac-beats.vercel.app",
+    group: "Music experiments",
+    accent: "primary",
+  },
+  {
+    title: "Synth Matrix",
+    description: "An AI guide that matches musical taste with iconic synthesizers.",
+    tags: ["AI", "Music"],
+    status: "Live",
+    url: "https://synth-matrix.vercel.app",
+    group: "Music experiments",
+    accent: "accent",
+  },
+];

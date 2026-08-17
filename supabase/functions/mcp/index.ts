@@ -32,7 +32,45 @@ var links = [
   { label: "Twitter / X", url: "https://x.com/heyjohnmin" },
   { label: "GitHub", url: "https://github.com/john-min" }
 ];
-var projects = [];
+var projects = [
+  {
+    title: "StreamEngine",
+    description: "Stablecoin payout orchestration, treasury operations, and reconciliation for businesses and autonomous agents.",
+    tags: ["Fintech", "Operations", "Agents"],
+    status: "Sandbox prototype",
+    url: "https://stream-engine-pi.vercel.app",
+    group: "Financial systems",
+    accent: "secondary"
+  },
+  {
+    title: "Wireframe",
+    description: "A minimal consumer wallet for sending digital dollars across Base and Tempo.",
+    tags: ["Stablecoins", "Wallets", "Consumer"],
+    status: "Live prototype",
+    url: "https://wireframe-stablecoin.vercel.app",
+    group: "Financial systems",
+    accent: "secondary",
+    note: "Opens directly into authentication \u2014 a public walkthrough is in progress."
+  },
+  {
+    title: "Cardiac Beats",
+    description: "An EKG-inspired drum sequencer and rhythm visualizer.",
+    tags: ["Music", "Interaction"],
+    status: "Live",
+    url: "https://cardiac-beats.vercel.app",
+    group: "Music experiments",
+    accent: "primary"
+  },
+  {
+    title: "Synth Matrix",
+    description: "An AI guide that matches musical taste with iconic synthesizers.",
+    tags: ["AI", "Music"],
+    status: "Live",
+    url: "https://synth-matrix.vercel.app",
+    group: "Music experiments",
+    accent: "accent"
+  }
+];
 
 // src/lib/mcp/tools/get-profile.ts
 var get_profile_default = defineTool({
@@ -80,14 +118,14 @@ import { defineTool as defineTool4 } from "npm:@lovable.dev/mcp-js@0.26.1";
 var list_projects_default = defineTool4({
   name: "list_projects",
   title: "List projects",
-  description: "List John Min's published projects and case studies. Currently under construction, so this may return an empty list.",
+  description: "List John Min's projects and experiments, including title, description, tags, status, and live URL.",
   inputSchema: {},
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({
     content: [
       {
         type: "text",
-        text: projects.length === 0 ? "No projects published yet \u2014 the projects section is under construction." : JSON.stringify(projects, null, 2)
+        text: JSON.stringify(projects, null, 2)
       }
     ],
     structuredContent: { projects }

@@ -63,7 +63,7 @@
       {
         "name": "list_projects",
         "title": "List projects",
-        "description": "List John Min's published projects and case studies. Currently under construction, so this may return an empty list.",
+        "description": "List John Min's projects and experiments, including title, description, tags, status, and live URL.",
         "annotations": {
           "readOnlyHint": true,
           "idempotentHint": true,
