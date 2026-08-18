@@ -4,7 +4,7 @@ import { projects } from "@/lib/content/home";
 const ext = { target: "_blank", rel: "noopener noreferrer" } as const;
 
 const ProjectsSection = () => (
-  <Section id="projects" color="ochre" className="bg-surface-alt md:bg-transparent">
+  <Section id="projects" color="ochre">
     <SectionHeader refNo="02" label="Projects" color="ochre" />
 
     <ul>
