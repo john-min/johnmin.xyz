@@ -13,7 +13,7 @@ const Hero = () => (
         <span className="h-full flex-1 bg-blue" />
       </div>
 
-      <h1 className="mt-7 font-display text-[44px] font-normal leading-[0.92] tracking-[-0.035em] text-ink md:text-[68px] lg:text-[96px]">
+      <h1 className="mt-7 font-display text-[44px] font-light leading-[0.92] tracking-[-0.035em] text-ink md:text-[68px] lg:text-[96px]">
         {hero.name}
       </h1>
 

@@ -26,7 +26,7 @@ const WritingSection = () => (
               {row.date}
             </time>
             <div className="mt-1 md:mt-0">
-              <h3 className="font-display text-[22px] font-medium leading-[1.15] tracking-[-0.035em] text-ink md:text-[23px]">
+              <h3 className="font-display text-[22px] font-light leading-[1.15] tracking-[-0.035em] text-ink md:text-[23px]">
                 {row.title}
                 <span aria-hidden="true" className="ml-2 text-meta md:hidden">
                   ↗
