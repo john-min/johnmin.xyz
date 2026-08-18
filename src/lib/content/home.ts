@@ -102,7 +102,7 @@ export const aboutContent = {
 export const contactLinks = [
   { label: "Substack", href: "https://johnmin.substack.com" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/johncmin" },
-  { label: "Twitter / X", href: "https://x.com/heyjohnmin" },
+  { label: "X", href: "https://x.com/heyjohnmin" },
   { label: "GitHub", href: "https://github.com/john-min" },
 ];
 
