@@ -3,7 +3,7 @@
 // supabase function: mcp
 // Bundled from src/lib/mcp/index.ts by @lovable.dev/mcp-js.
 // src/lib/mcp/index.ts
-import { defineMcp } from "npm:@lovable.dev/mcp-js@0.26.1";
+import { auth, defineMcp } from "npm:@lovable.dev/mcp-js@0.26.1";
 
 // src/lib/mcp/tools/get-profile.ts
 import { defineTool } from "npm:@lovable.dev/mcp-js@0.26.1";
@@ -138,6 +138,12 @@ var mcp_default = defineMcp({
   title: "johnmin.xyz",
   version: "0.1.0",
   instructions: "Public tools for johnmin.xyz, the personal site of John Min. Use `get_profile` for name, location, and tagline; `get_background` for education, experience, and current interests; `list_links` for public profile links; `list_projects` for published work.",
+  auth: auth.oauth.issuer({
+    issuer: "https://bzwkqbtongqvqbdyyuhh.supabase.co/auth/v1",
+    resource: "https://bzwkqbtongqvqbdyyuhh.supabase.co/functions/v1/mcp",
+    acceptedAudiences: ["authenticated"],
+    resourceName: "johnmin.xyz MCP"
+  }),
   tools: [get_profile_default, get_background_default, list_links_default, list_projects_default]
 });
 
