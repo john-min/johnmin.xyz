@@ -59,9 +59,31 @@
     --barragan-neutral: 30 8% 63%;
     --card-block: 27 30% 94%;
 
+    /* johnmin.xyz editorial pass — raw hex tokens */
+    --pink: #E84B8A;
+    --ochre: #E8B630;
+    --blue: #2E4BA0;
+    --pink-text: #C8375F;
+    --ochre-text: #8A5F10;
+    --blue-text: #22357E;
+    --surface: #FCFBF9;
+    --surface-alt: #F4F2ED;
+    --matte: #EDEBE5;
+    --ink: #171613;
+    --body-ink: #4A463E;
+    --body-quiet: #545046;
+    --meta: #6A655B;
+    --title-rest: #6E6858;
+    --cursor: #8C8577;
+    --hairline: #E8E5DE;
+    --line-border: #E4E1DA;
+    --underline: #DEDBD3;
+
     --font-mono: 'Space Mono', monospace;
     --font-sans: 'DM Sans', sans-serif;
+    --font-display: 'Bricolage Grotesque', 'DM Sans', sans-serif;
   }
+
 
   .dark {
     --background: 0 0% 5%;
@@ -122,19 +144,39 @@ html {
 /* Blinking cursor */
 @keyframes blink {
   0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
+  50% { opacity: 0.18; }
 }
 
 .blinking-cursor::before {
   content: '';
   display: inline-block;
-  width: 0.55em;
-  height: 1.1em;
-  background: currentColor;
-  margin-right: 0.5em;
-  vertical-align: middle;
-  animation: blink 1s step-end infinite;
+  width: 0.42em;
+  height: 1.05em;
+  background: var(--cursor);
+  margin-right: 0.6em;
+  vertical-align: -0.15em;
+  animation: blink 1.1s steps(1, end) infinite;
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .blinking-cursor::before { animation: none; opacity: 1; }
+  * { transition-duration: 0.01ms !important; }
+}
+
+/* Row hover/focus treatment for editorial rows */
+.jm-row .jm-bar {
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.jm-row:hover .jm-bar,
+.jm-row:focus-visible .jm-bar {
+  opacity: 1;
+}
+.jm-row:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
 
 /* Color block decorative element */
 .barragan-stripe {
