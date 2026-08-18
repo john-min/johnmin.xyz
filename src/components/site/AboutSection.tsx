@@ -34,14 +34,14 @@ const AboutSection = () => (
 
     <div className="lg:grid lg:grid-cols-[1fr_380px] lg:gap-14">
       <div>
-        <p className="max-w-[24ch] font-display text-[21px] leading-[1.25] tracking-[-0.035em] text-ink md:text-[26px]">
+        <p className="max-w-[24ch] font-display text-[21px] leading-[1.25] tracking-[-0.035em] text-ink">
           {aboutContent.invitation}
         </p>
 
         <div className="mt-7 space-y-5">
           {aboutContent.paragraphs.map((p, i) => (
             <div key={p}>
-              <p className="max-w-[60ch] text-[15px] leading-[1.55] text-body-ink md:text-[16px] md:leading-[1.6]">
+              <p className="max-w-[60ch] text-[14px] leading-[1.55] text-body-ink md:leading-[1.6]">
                 {p}
               </p>
               {i === 0 && (
@@ -59,7 +59,7 @@ const AboutSection = () => (
               <a
                 href={l.href}
                 {...ext}
-                className="flex min-h-[44px] items-center justify-between border-b border-hairline text-[17px] text-body-ink transition-colors duration-200 hover:text-ink md:text-[15px]"
+                className="flex min-h-[44px] items-center justify-between border-b border-hairline text-[12px] text-body-ink transition-colors duration-200 hover:text-ink"
               >
                 {l.label}
                 <span aria-hidden="true" className="font-mono text-[10px] text-blue">
