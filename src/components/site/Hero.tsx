@@ -1,9 +1,10 @@
 import { hero } from "@/lib/content/home";
 
 const Hero = () => (
-  <header id="top" className="md:grid md:grid-cols-[40px_1fr] lg:grid-cols-[96px_1fr]">
+  <header id="top" className="px-5 md:grid md:grid-cols-[80px_1fr] md:gap-x-10 md:px-8 lg:grid-cols-[96px_1fr] lg:gap-x-12 lg:px-[72px]">
     <div aria-hidden="true" className="hidden md:block" />
-    <div className="px-5 pb-8 pt-6 md:pb-[60px] md:pl-8 md:pr-8 md:pt-[52px] lg:pl-14 lg:pr-16">
+    <div className="pb-8 pt-6 md:pb-[60px] md:pt-[52px]">
+
       <div
         aria-hidden="true"
         className="flex h-[6px] w-full max-w-[640px]"

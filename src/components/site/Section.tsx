@@ -56,12 +56,13 @@ const Section = ({
 }) => (
   <section
     id={id}
-    className={`scroll-mt-20 py-[26px] md:grid md:grid-cols-[40px_1fr] md:py-[52px] lg:grid-cols-[96px_1fr] ${className}`}
+    className={`scroll-mt-20 px-5 py-[26px] md:grid md:grid-cols-[80px_1fr] md:gap-x-10 md:px-8 md:py-[52px] lg:grid-cols-[96px_1fr] lg:gap-x-12 lg:px-[72px] ${className}`}
   >
     <div aria-hidden="true" className="hidden md:block">
       <div className={`my-[6px] mb-6 h-[calc(100%-30px)] w-full ${plane[color]}`} />
     </div>
-    <div className="px-5 md:pl-8 md:pr-8 lg:pl-14 lg:pr-16">{children}</div>
+    <div>{children}</div>
+
   </section>
 );
 
