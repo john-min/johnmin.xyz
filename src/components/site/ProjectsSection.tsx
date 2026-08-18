@@ -20,7 +20,7 @@ const ProjectsSection = () => (
               className="jm-bar absolute bottom-[18px] left-[-20px] top-[18px] hidden w-[6px] bg-ochre md:block"
             />
             <div className="flex items-baseline justify-between gap-6">
-              <h3 className="font-display text-[19px] font-light leading-[1.2] tracking-[-0.035em] text-title-rest transition-colors duration-200 group-hover:text-ink md:text-[21px]">
+              <h3 className="font-display text-[21px] font-light leading-[1.2] tracking-[-0.035em] text-title-rest transition-colors duration-200 group-hover:text-ink">
                 {p.title}
                 {p.srSuffix && <span className="sr-only"> — {p.srSuffix}</span>}
               </h3>
