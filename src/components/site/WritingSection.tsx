@@ -50,7 +50,7 @@ const WritingSection = () => (
     <a
       href={substackUrl}
       {...ext}
-      className="mt-6 inline-block border-b border-hairline pb-1 font-mono text-[10px] uppercase tracking-[0.16em] text-body-quiet transition-colors duration-200 hover:text-ink"
+      className="mt-6 inline-block border-b border-hairline pb-1 font-mono text-[10px] uppercase tracking-[0.16em] text-pink transition-colors duration-200 hover:text-pink-text"
     >
       All writing on Substack ↗
     </a>
