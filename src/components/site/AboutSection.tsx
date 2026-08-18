@@ -1,10 +1,10 @@
 import Section, { SectionHeader } from "./Section";
 import { aboutContent, contactLinks } from "@/lib/content/home";
+import portraitAsset from "@/assets/about-portrait.jpg.asset.json";
 
 const ext = { target: "_blank", rel: "noopener noreferrer" } as const;
 
-// TODO: replace with about-portrait.png (4:5) once the full-resolution file is uploaded.
-const portraitSrc: string | null = null;
+const portraitSrc: string | null = portraitAsset.url;
 
 const Portrait = () => (
   <figure className="mx-auto w-full max-w-[420px] lg:max-w-[380px]">
