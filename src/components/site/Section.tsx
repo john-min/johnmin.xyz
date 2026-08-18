@@ -31,7 +31,7 @@ export const SectionHeader = ({
 }) => (
   <div className="mb-6">
     <p
-      className={`font-display text-[13px] uppercase tracking-[0.14em] md:text-[15px] md:tracking-[0.16em] ${labelColor[color]}`}
+      className={`font-display text-[13px] font-light uppercase tracking-[0.14em] md:text-[15px] md:tracking-[0.16em] ${labelColor[color]}`}
     >
       {`REF.${refNo} — ${label}`}
     </p>
