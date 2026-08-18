@@ -1,4 +1,4 @@
-import { defineMcp } from "@lovable.dev/mcp-js";
+import { auth, defineMcp } from "@lovable.dev/mcp-js";
 import getProfileTool from "./tools/get-profile";
 import getBackgroundTool from "./tools/get-background";
 import listLinksTool from "./tools/list-links";
@@ -10,5 +10,11 @@ export default defineMcp({
   version: "0.1.0",
   instructions:
     "Public tools for johnmin.xyz, the personal site of John Min. Use `get_profile` for name, location, and tagline; `get_background` for education, experience, and current interests; `list_links` for public profile links; `list_projects` for published work.",
+  auth: auth.oauth.issuer({
+    issuer: "https://bzwkqbtongqvqbdyyuhh.supabase.co/auth/v1",
+    resource: "https://bzwkqbtongqvqbdyyuhh.supabase.co/functions/v1/mcp",
+    acceptedAudiences: ["authenticated"],
+    resourceName: "johnmin.xyz MCP",
+  }),
   tools: [getProfileTool, getBackgroundTool, listLinksTool, listProjectsTool],
 });

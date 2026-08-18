@@ -3,7 +3,13 @@
   "sdk_version": "0.26.1",
   "path": "/functions/v1/mcp",
   "auth": {
-    "type": "none"
+    "type": "oauth",
+    "issuer": "https://bzwkqbtongqvqbdyyuhh.supabase.co/auth/v1",
+    "resource": "https://bzwkqbtongqvqbdyyuhh.supabase.co/functions/v1/mcp",
+    "resource_name": "johnmin.xyz MCP",
+    "accepted_audiences": [
+      "authenticated"
+    ]
   },
   "mcp": {
     "server": {
