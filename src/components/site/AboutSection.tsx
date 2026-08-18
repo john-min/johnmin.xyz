@@ -1,10 +1,9 @@
 import Section, { SectionHeader } from "./Section";
 import { aboutContent, contactLinks } from "@/lib/content/home";
-import portraitAsset from "@/assets/about-portrait.jpg.asset.json";
+import portraitSrc from "@/assets/about-portrait.jpg";
 
 const ext = { target: "_blank", rel: "noopener noreferrer" } as const;
 
-const portraitSrc: string | null = portraitAsset.url;
 
 const Portrait = () => (
   <figure className="mx-auto w-full max-w-[420px] lg:max-w-[380px]">
