@@ -59,9 +59,31 @@
     --barragan-neutral: 30 8% 63%;
     --card-block: 27 30% 94%;
 
+    /* johnmin.xyz editorial pass — raw hex tokens */
+    --pink: #E84B8A;
+    --ochre: #E8B630;
+    --blue: #2E4BA0;
+    --pink-text: #C8375F;
+    --ochre-text: #8A5F10;
+    --blue-text: #22357E;
+    --surface: #FCFBF9;
+    --surface-alt: #F4F2ED;
+    --matte: #EDEBE5;
+    --ink: #171613;
+    --body-ink: #4A463E;
+    --body-quiet: #545046;
+    --meta: #6A655B;
+    --title-rest: #6E6858;
+    --cursor: #8C8577;
+    --hairline: #E8E5DE;
+    --line-border: #E4E1DA;
+    --underline: #DEDBD3;
+
     --font-mono: 'Space Mono', monospace;
     --font-sans: 'DM Sans', sans-serif;
+    --font-display: 'Bricolage Grotesque', 'DM Sans', sans-serif;
   }
+
 
   .dark {
     --background: 0 0% 5%;
