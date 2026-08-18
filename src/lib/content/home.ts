@@ -53,6 +53,8 @@ export const writing: WritingRow[] = [
 export const substackUrl = "https://johnmin.substack.com";
 
 export type ProjectRow = {
+  date: string;
+  dateISO: string;
   title: string;
   description: string;
   href: string;
@@ -61,6 +63,8 @@ export type ProjectRow = {
 
 export const projects: ProjectRow[] = [
   {
+    date: "AUG 12, 2026",
+    dateISO: "2026-08-12",
     title: "Wireframe",
     description:
       "Minimal consumer wallet for sending USDC across Base and Tempo.",
@@ -68,18 +72,24 @@ export const projects: ProjectRow[] = [
     srSuffix: "opens the live prototype; sign-in required",
   },
   {
+    date: "JUN 20, 2026",
+    dateISO: "2026-06-20",
     title: "StreamEngine",
     description:
       "Stablecoin payout orchestration, treasury operations, and reconciliation for businesses and autonomous agents.",
     href: "https://stream-engine-pi.vercel.app/",
   },
   {
+    date: "DEC 29, 2025",
+    dateISO: "2025-12-29",
     title: "Synth Matrix",
     description:
       "Synth recommendations based on your favorite electronic artists.",
     href: "https://synth-matrix.vercel.app/",
   },
   {
+    date: "JAN 05, 2025",
+    dateISO: "2025-01-05",
     title: "Cardiac Beats",
     description: "EKG-inspired drum sequencer and rhythm visualizer.",
     href: "https://cardiac-beats.vercel.app/",
