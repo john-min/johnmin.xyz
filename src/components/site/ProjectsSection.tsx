@@ -26,7 +26,7 @@ const ProjectsSection = () => (
               {p.date}
             </time>
             <div className="mt-1 md:mt-0">
-              <h3 className="font-display text-[21px] font-light leading-[1.2] tracking-[-0.035em] text-title-rest transition-colors duration-200 group-hover:text-ink">
+              <h3 className="font-display text-[21px] font-light leading-[1.2] tracking-[-0.035em] text-ink">
                 {p.title}
                 {p.srSuffix && <span className="sr-only"> — {p.srSuffix}</span>}
                 <span aria-hidden="true" className="ml-2 font-mono text-[10px] text-ochre md:hidden">
