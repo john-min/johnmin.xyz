@@ -28,7 +28,7 @@ const WritingSection = () => (
             <div className="mt-1 md:mt-0">
               <h3 className="font-display text-[22px] font-light leading-[1.15] tracking-[-0.035em] text-ink md:text-[23px]">
                 {row.title}
-                <span aria-hidden="true" className="ml-2 text-meta md:hidden">
+                <span aria-hidden="true" className="ml-2 font-mono text-[10px] text-pink md:hidden">
                   ↗
                 </span>
               </h3>
@@ -38,7 +38,7 @@ const WritingSection = () => (
             </div>
             <span
               aria-hidden="true"
-              className="hidden text-meta md:block md:justify-self-end"
+              className="hidden font-mono text-[10px] text-pink md:block md:justify-self-end"
             >
               ↗
             </span>

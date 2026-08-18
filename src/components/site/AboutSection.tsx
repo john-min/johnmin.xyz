@@ -62,7 +62,7 @@ const AboutSection = () => (
                 className="flex min-h-[44px] items-center justify-between border-b border-hairline text-[17px] text-body-ink transition-colors duration-200 hover:text-ink md:text-[15px]"
               >
                 {l.label}
-                <span aria-hidden="true" className="text-meta">
+                <span aria-hidden="true" className="font-mono text-[10px] text-blue">
                   ↗
                 </span>
               </a>

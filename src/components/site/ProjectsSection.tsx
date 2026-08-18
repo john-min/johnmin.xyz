@@ -26,9 +26,9 @@ const ProjectsSection = () => (
               </h3>
               <span
                 aria-hidden="true"
-                className="hidden shrink-0 font-mono text-[10px] uppercase tracking-[0.14em] text-meta md:inline"
+                className="hidden shrink-0 font-mono text-[10px] uppercase tracking-[0.14em] text-ochre md:inline"
               >
-                Open ↗
+                ↗
               </span>
             </div>
             <p className="mt-1.5 max-w-[60ch] text-[14.5px] leading-[1.5] text-body-quiet md:text-[15px] md:leading-[1.55]">
