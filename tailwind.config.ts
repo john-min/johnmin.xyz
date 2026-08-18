@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        mono: ["Space Mono", "monospace"],
-        sans: ["DM Sans", "sans-serif"],
-        display: ["Bricolage Grotesque", "DM Sans", "sans-serif"],
+        mono: ['"Space Mono"', 'monospace'],
+        sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
+        display: ['"Bricolage Grotesque"', 'sans-serif'],
       },
       colors: {
         pink: "var(--pink)",
