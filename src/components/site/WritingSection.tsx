@@ -26,7 +26,7 @@ const WritingSection = () => (
               {row.date}
             </time>
             <div className="mt-1 md:mt-0">
-              <h3 className="font-display text-[22px] font-medium leading-[1.15] tracking-[-0.035em] text-title-rest transition-colors duration-200 group-hover:text-ink md:text-[23px]">
+              <h3 className="font-display text-[22px] font-medium leading-[1.15] tracking-[-0.035em] text-ink md:text-[23px]">
                 {row.title}
                 <span aria-hidden="true" className="ml-2 text-meta md:hidden">
                   ↗
@@ -50,7 +50,7 @@ const WritingSection = () => (
     <a
       href={substackUrl}
       {...ext}
-      className="mt-6 inline-block border-b border-hairline pb-1 font-mono text-[10px] uppercase tracking-[0.16em] text-body-quiet transition-colors duration-200 hover:text-ink"
+      className="mt-6 inline-block border-b border-hairline pb-1 font-mono text-[10px] uppercase tracking-[0.16em] text-pink transition-colors duration-200 hover:text-pink-text"
     >
       All writing on Substack ↗
     </a>
