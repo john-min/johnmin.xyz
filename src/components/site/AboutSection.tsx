@@ -34,7 +34,7 @@ const AboutSection = () => (
 
     <div className="lg:grid lg:grid-cols-[1fr_380px] lg:gap-14">
       <div>
-        <p className="max-w-[24ch] font-display text-[21px] leading-[1.25] tracking-[-0.035em] text-ink">
+        <p className="max-w-none font-display text-[21px] leading-[1.25] tracking-[-0.035em] text-ink">
           {aboutContent.invitation}
         </p>
 
@@ -53,7 +53,7 @@ const AboutSection = () => (
           ))}
         </div>
 
-        <ul className="mt-9 md:grid md:grid-cols-2 md:gap-x-10 lg:block">
+        <ul className="mt-9">
           {contactLinks.map((l) => (
             <li key={l.href}>
               <a
