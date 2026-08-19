@@ -129,7 +129,7 @@ export const about = {
   lines: [
     "Duke undergrad in economics, math, and public policy; Columbia grad in statistics and machine learning.",
     "Co-founded Dignifi — AI-powered reentry support for justice-impacted individuals across housing, health, and employment.",
-    "Currently thinking about stablecoins, agentic commerce, and the automation of everything that moves. Otherwise: house music, tennis, writing, and visual art performance.",
+    "During the day, I'm exploring emerging technologies that are automating our economy such as stablecoins and agentic and AI commerce. On nights and weekends, I'm jamming out to house music, playing tennis, and writing about my musings.",
   ],
   contactNote: "Open to conversations — ideas, collaborations, or both.",
 };
