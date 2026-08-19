@@ -101,7 +101,7 @@ export const aboutContent = {
   paragraphs: [
     "I build products and go-to-market systems across fintech, AI, and emerging technology. My work has spanned consumer credit in the U.S., Asia, and Africa, as well as healthcare, media, politics, web3, and social impact.",
     "I studied economics, math, and public policy at Duke, then statistics and machine learning at Columbia. I co-founded Dignifi, an AI-powered platform helping justice-impacted people navigate housing, healthcare, and employment.",
-    "During the day, I'm exploring emerging technologies that are automating our economy such as stablecoins and agentic / AI commerce. On nights and weekends, I'm jamming out to house music, playing tennis, and writing about my musings.",
+    "By day, I explore emerging technologies powering economic automation—from stablecoin rails to payment and commerce systems built for AI. By night it's house music, tennis, and writing.",
     "If any of that sounds interesting, say hello.",
   ],
   photoCaption: "I'm a serious person.",
