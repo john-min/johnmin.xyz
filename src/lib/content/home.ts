@@ -63,6 +63,14 @@ export type ProjectRow = {
 
 export const projects: ProjectRow[] = [
   {
+    date: "SEP 02, 2026",
+    dateISO: "2026-09-02",
+    title: "Crate Dig",
+    description:
+      "Visual music discovery that maps a DJ's library by sound.",
+    href: "https://cratedig.forbiddenfruitsound.com/",
+  },
+  {
     date: "AUG 12, 2026",
     dateISO: "2026-08-12",
     title: "Wireframe",

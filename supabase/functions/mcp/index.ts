@@ -69,6 +69,15 @@ var projects = [
     url: "https://synth-matrix.vercel.app",
     group: "Music experiments",
     accent: "accent"
+  },
+  {
+    title: "Crate Dig",
+    description: "Visual music discovery that maps a DJ's library by sound.",
+    tags: ["Music", "AI", "Discovery"],
+    status: "Live",
+    url: "https://cratedig.forbiddenfruitsound.com",
+    group: "Music experiments",
+    accent: "primary"
   }
 ];
 

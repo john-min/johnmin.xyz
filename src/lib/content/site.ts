@@ -5,6 +5,7 @@ import streamengine from "@/assets/projects/streamengine.jpg";
 import wireframe from "@/assets/projects/wireframe.jpg";
 import cardiac from "@/assets/projects/cardiac.jpg";
 import synth from "@/assets/projects/synth.jpg";
+import cratedig from "@/assets/projects/cratedig.jpg";
 
 export const profile = {
   name: "John Min",
@@ -116,6 +117,17 @@ export const projectItems: ProjectItem[] = [
     group: "Music experiments",
     image: synth,
     imageAlt: "Synth Matrix AI synthesizer recommendation interface",
+  },
+  {
+    title: "Crate Dig",
+    description:
+      "Visual music discovery that maps a DJ's library by sound.",
+    tags: ["MUSIC", "AI", "DISCOVERY"],
+    status: "LIVE",
+    url: "https://cratedig.forbiddenfruitsound.com/",
+    group: "Music experiments",
+    image: cratedig,
+    imageAlt: "Crate Dig visual music discovery interface mapping a DJ library by sound",
   },
 ];
 
